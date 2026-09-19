@@ -1,12 +1,12 @@
 <script setup>
 // Marcador determinístico: o critério 5 do ensaio (#2022) confere o CORPO da
 // resposta, não o status — `health-check.ts` aceita qualquer status como vivo.
-const marker = 'uqbitz-example-vue-vite-v1';
+const marker = 'uqbitz-example-vue-vite-v2';
 const builtAt = new Date().toISOString();
 </script>
 
 <template>
-  <h1>Vue 3 + Vite, publicado pela CLI</h1>
+  <h1>Vue 3 + Vite — segundo deploy</h1>
   <p>
     Esta página é o ensaio de publicação estática da UQBITZ: repositório vinculado
     com <code>uqbitz git link</code>, comandos de build gravados com
